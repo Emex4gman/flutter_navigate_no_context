@@ -20,13 +20,13 @@ class SecondScreen extends StatelessWidget {
               onPressed: () {
                 NavigationService().goBack();
               },
-              child: Text("GOT TO Back"),
+              child: Text("Go Back"),
             ),
             ElevatedButton(
               onPressed: () {
                 NavigationService().navigateToScreen(ThirdScreen());
               },
-              child: Text("GOT TO THREE"),
+              child: Text("Go To THREE"),
             ),
           ],
         ),

@@ -25,7 +25,7 @@ class _FirstScreenState extends State<FirstScreen> {
               onPressed: () {
                 NavigationService().navigateToScreen(SecondScreen());
               },
-              child: Text("GOT TO SCREEN Two"),
+              child: Text("Go To SCREEN Two"),
             ),
           ],
         ),

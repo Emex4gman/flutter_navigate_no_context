@@ -23,15 +23,14 @@ class _ThirdScreenState extends State<ThirdScreen> {
             ElevatedButton(
               onPressed: () {
                 NavigationService().goBack();
-
               },
-              child: Text("GOT TO Back TO TWO"),
+              child: Text("Go Back TO TWO"),
             ),
             ElevatedButton(
               onPressed: () {
                 NavigationService().popToFirst();
               },
-              child: Text("GOT BACK TO HOME"),
+              child: Text("GO BACK TO HOME"),
             ),
           ],
         ),
